@@ -7,15 +7,16 @@ public class Main {
         int bonus;
 
         if (addSum < 1000) {
-            bonus = 0;}
-        else {
-            bonus = addSum/100;}
+            bonus = 0;
+        } else {
+            bonus = addSum / 100;
+        }
 
         int sumZ = addSum + bonus;
-        int itogo = startCapital+addSum+bonus;
+        int total = startCapital + addSum + bonus;
 
         System.out.println("Сумма пополнения составила " + addSum + " рублей. Вам начислено " + bonus + " бонусов.");
         System.out.println("Общая сумма зачисления равна " + sumZ + " рублей.");
-        System.out.println("Итого на балансе: " + itogo);
+        System.out.println("Итого на балансе: " + total);
     }
 }
